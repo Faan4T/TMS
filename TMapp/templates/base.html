@@ -45,9 +45,9 @@
         <ul class="navbar-nav navbar-right">
           <li class="dropdown"><a href="#" data-toggle="dropdown"
               class="nav-link dropdown-toggle nav-link-lg nav-link-user"> {% if user.image %}
-              <img src="{{ user.image.url }}" alt="User Image">
+              <img src="{{ user.image.url }}" class="user-img-radious-style" alt="User Image">
           {% else %}
-              <img src="/path/to/default/image.jpg" alt="Default Image">
+              <img src="/path/to/default/image.jpg"  class="user-img-radious-style" alt="Default Image">
           {% endif %}
            <span class="d-sm-none d-lg-inline-block"></span></a>
             <div class="dropdown-menu dropdown-menu-right pullDown">
