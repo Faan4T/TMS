@@ -24,7 +24,7 @@ SECRET_KEY = os.getenv('DJANGO_SECRET_KEY', 'your-default-secret-key')
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
 ALLOWED_HOSTS = [
-    "your-app-name.onrender.com",
+    "https://tms-r7pg.onrender.com",
     "your-custom-domain.com",
     "localhost",
     "127.0.0.1",
@@ -32,13 +32,13 @@ ALLOWED_HOSTS = [
 
 # CSRF Protection for Render Deployment
 CSRF_TRUSTED_ORIGINS = [
-    "https://your-app-name.onrender.com",
+    "https://https://tms-r7pg.onrender.com",
     "https://your-custom-domain.com"
 ]
 
 # CORS Settings (if needed)
 CORS_ALLOWED_ORIGINS = [
-    "https://your-app-name.onrender.com",
+    "https://https://tms-r7pg.onrender.com",
     "https://your-custom-domain.com"
 ]
 
