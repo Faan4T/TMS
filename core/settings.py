@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-6#z@f$ng^%b7f#7*auip&%=lk8o3phzqnn@6_1^_bl22ap9tm$
 DEBUG = False
 
 ALLOWED_HOSTS = ["*"]
-
+URLS = "https://tms-r7pg.onrender.com"
 CSRF_TRUSTED_ORIGINS = [
     "https://tms-r7pg.onrender.com",
 ]
